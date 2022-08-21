@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: "Sams blog "
+title: "Sam and nims blog "
 image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscience
 subheading: testing
