@@ -133,6 +133,18 @@ collections:
             }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
+      - file: "src/pages/test/index.md"
+        label: "Test"
+        name: "test"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "test-page",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
       - file: "src/pages/products/index.md"
         label: "Products Page"
         name: "products"
